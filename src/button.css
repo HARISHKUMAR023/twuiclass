@@ -1,0 +1,38 @@
+/* btn.css */
+.btn {
+    @apply px-4 py-2 rounded bg-blue-500 text-white;
+  }
+.btn-primary{
+    @apply bg-blue-500 text-white;
+  }
+.btn-secondary{
+    @apply bg-gray-500 text-white;
+  }
+.btn-danger{
+    @apply bg-red-500 text-white;
+  }
+.btn-warning{
+    @apply bg-yellow-500 text-white;
+  }
+.btn-success{
+    @apply bg-green-500 text-white;
+  }
+    /* card.css */
+    
+    .btn-outline-primary{
+        @apply border border-blue-500 text-blue-500;
+      }
+
+        .btn-outline-secondary{
+            @apply border border-gray-500 text-gray-500;
+        }
+    .btn-outline-danger{
+        @apply border border-red-500 text-red-500;
+      }
+        .btn-outline-warning{
+            @apply border border-yellow-500 text-yellow-500;
+        }
+    .btn-outline-success{
+        @apply border border-green-500 text-green-500;
+      }
+      
