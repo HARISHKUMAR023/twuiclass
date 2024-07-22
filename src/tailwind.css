@@ -1,9 +1,10 @@
+@import './button.css';
 /* src/tailwind.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import './button.css';
+
 
 /* Custom classes */
 /* .btn {
